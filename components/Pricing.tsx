@@ -78,13 +78,14 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12 items-start">
+        <div className="grid md:grid-cols-3 gap-8 mb-12 items-stretch">
           {plans.map((plan, i) => {
             const Icon = plan.icon;
+            const isCustom = plan.price === "Let's talk";
             return (
               <div
                 key={i}
-                className={`relative p-8 rounded-3xl border transition-all duration-300 ${
+                className={`relative flex flex-col h-full p-8 rounded-3xl border transition-all duration-300 ${
                   plan.highlight
                     ? "border-blue-500/50 bg-gradient-to-b from-blue-500/10 to-slate-900/60 shadow-xl shadow-blue-500/10"
                     : "border-slate-800 bg-slate-900/40 hover:border-slate-700"
@@ -111,13 +112,15 @@ export default function Pricing() {
                   <h3 className="text-xl font-bold text-white">{plan.name}</h3>
                 </div>
 
-                <div className="flex items-baseline gap-1 mb-2">
-                  <span className="text-4xl font-bold text-white">{plan.price}</span>
+                <div className="flex items-baseline gap-1 mb-2 min-h-[2.75rem]">
+                  <span className={`font-bold text-white ${isCustom ? "text-3xl" : "text-4xl"}`}>
+                    {plan.price}
+                  </span>
                   {plan.period && <span className="text-slate-400">{plan.period}</span>}
                 </div>
-                <p className="text-slate-400 text-sm mb-6 leading-relaxed">{plan.description}</p>
+                <p className="text-slate-400 text-sm mb-6 leading-relaxed min-h-[5rem]">{plan.description}</p>
 
-                <ul className="space-y-3 mb-8">
+                <ul className="space-y-3 mb-8 flex-grow">
                   {plan.features.map((feature, j) => (
                     <li key={j} className="flex items-start gap-3">
                       <div
@@ -138,7 +141,7 @@ export default function Pricing() {
                   href="https://calendly.com/placeholder"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
+                  className={`mt-auto flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
                     plan.highlight
                       ? "bg-blue-500 hover:bg-blue-600 text-white shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50"
                       : "bg-slate-800 hover:bg-slate-700 text-white border border-slate-700"
