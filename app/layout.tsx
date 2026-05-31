@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AskYourBiz.ai",
     description:
-      "AI intelligence layer for small businesses. Ask questions. Get answers. No BI team required.",
+      "AI data intelligence for small businesses that have the data but not the answers. Ask plain-English questions. Get answers in 10 seconds.",
   },
 };
 
