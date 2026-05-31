@@ -6,19 +6,19 @@ import { ArrowRight, Calendar, ClipboardList } from "lucide-react";
 const demoConversation = [
   {
     role: "user",
-    text: "What was my cost per booked appointment last week?",
+    text: "Why did our show rate drop this week?",
   },
   {
     role: "assistant",
-    text: "$34.12 per booked appointment — down 18% from the prior week. You ran 847 dials, converted 24 appointments. Your best-performing rep was Marcus at $28.40/booking.",
+    text: "Show rate dropped from 68% to 54% — driven by Apex Financial account. Their Tuesday AM slots are converting 31% vs your 64% average. Shifting their bookings to Thursday 2–4pm would recover ~8 appointments/week based on historical patterns.",
   },
   {
     role: "user",
-    text: "Which clients had the lowest show rates?",
+    text: "Which rep is actually driving the most revenue right now?",
   },
   {
     role: "assistant",
-    text: "Apex Financial had a 52% show rate last week — 11 pts below your average. Typically correlates with Monday AM slots. Want me to flag rescheduling candidates?",
+    text: "Marcus — not who your dashboard shows. His cost per showed appointment is $28.40 vs team average of $47.20. He's running 23% fewer dials but converting 2.1x better. Recommend loading his calendar first for your high-value client accounts.",
   },
 ];
 
@@ -78,21 +78,21 @@ export default function Hero() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-medium mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-400 animate-pulse" />
-              Managed AI Intelligence — Built for You, Not DIY
+              Built for GHL Appointment-Setting Agencies
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-white mb-6">
-              Ask your business{" "}
-              <span className="text-gradient">anything.</span>
+              Your data already knows{" "}
+              <span className="text-gradient">where you&apos;re losing money.</span>
               <br />
-              Get answers from{" "}
-              <span className="text-gradient">your real data.</span>
+              We make it{" "}
+              <span className="text-gradient">tell you.</span>
             </h1>
 
             <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-lg">
-              We connect your CRM, dialer, and databases directly to Claude Desktop.
-              No dashboards. No BI team. No new software to learn. Just type a question
-              and get an instant answer from your live business data.
+              Appointment-setting agencies running GoHighLevel recover 15–30% more booked calls
+              by knowing exactly which reps, time slots, and lead sources are silently killing
+              their show rate. No dashboards. No analysts. Just answers — from the tools you already use.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10">

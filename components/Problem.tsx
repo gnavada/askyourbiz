@@ -3,21 +3,21 @@ import { Database, BarChart3, Clock } from "lucide-react";
 const painPoints = [
   {
     icon: Database,
-    title: "Your data is scattered across SaaS tools",
+    title: "Your best dial window is hiding in your data",
     description:
-      "GoHighLevel, Salesforce, Stripe, Airtable — each holds a piece of the picture. Getting a complete view means logging into four platforms and manually stitching together exports.",
+      "Thursday 2–4pm converts 2.1x better than Monday morning for your account mix — but you're still loading calendars by gut feel. That pattern is in your GoHighLevel data right now. You just can't see it.",
   },
   {
     icon: BarChart3,
-    title: "Dashboards show the past, not the answers",
+    title: "Your top rep isn't who you think it is",
     description:
-      "Pre-built reports answer the questions someone else thought you'd ask. The question you actually have — the specific, urgent, nuanced one — is always one pivot table away from impossible.",
+      "Raw dial counts hide the real story. The rep with the best cost-per-showed-appointment is buried in a filter nobody checks. Meanwhile you're loading the wrong calendars with your best leads.",
   },
   {
     icon: Clock,
-    title: "You're making decisions on stale gut feel",
+    title: "You're renewing bad lead sources every month",
     description:
-      "By the time your analyst pulls the data, formats it, and sends the slide deck, the decision window has closed. Waiting days for answers you need in minutes is costing you money.",
+      "You know one of your lead sources is underperforming. You just don't know which one — so you renew everything. The answer is in your data. Getting it out currently takes 45 minutes on a good Monday.",
   },
 ];
 
@@ -33,14 +33,13 @@ export default function Problem() {
             The Problem
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Your data is trapped.
+            You&apos;re leaving money in your data
             <br />
-            <span className="text-gradient">Your business decisions shouldn&apos;t be.</span>
+            <span className="text-gradient">every single week.</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            You invested in the tools. The data is in there. But getting a straight answer
-            from your own business data should not require a data analyst, a BI platform,
-            or a three-day turnaround.
+            The patterns that would change how you run your agency are already in GoHighLevel.
+            The problem isn&apos;t the data — it&apos;s that getting to it takes longer than acting on it.
           </p>
         </div>
 

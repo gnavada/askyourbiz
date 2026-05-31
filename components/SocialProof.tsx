@@ -32,11 +32,11 @@ export default function SocialProof() {
           </div>
 
           <blockquote className="text-lg sm:text-xl text-slate-200 leading-relaxed mb-8 font-medium">
-            &ldquo;Before this, I was spending 45 minutes every Monday morning pulling numbers from
-            GoHighLevel, pasting them into spreadsheets, and still not getting the full picture.
-            Now I open Claude, type one question, and I know exactly what&apos;s happening in my business.
-            Cost per booking, show rates, which reps are on track — instantly. It&apos;s like having a
-            data analyst on call 24/7, except the analyst actually knows my business.&rdquo;
+            &ldquo;We run 10,000+ dials a week across three client accounts. Before this, Monday morning
+            meant 45 minutes of pulling GHL reports, pasting into spreadsheets, and still not knowing
+            which account was the problem. Now I ask one question and I know exactly which rep,
+            which time slot, and which lead source moved the needle — or didn&apos;t.
+            It&apos;s the first thing I check every Monday and the last thing I&apos;d give up.&rdquo;
           </blockquote>
 
           <div className="flex items-center justify-between flex-wrap gap-4">
@@ -79,9 +79,9 @@ export default function SocialProof() {
         {/* Social proof bar */}
         <div className="mt-8 grid grid-cols-3 gap-4">
           {[
-            { label: "Setup time", value: "< 3 days" },
-            { label: "Questions answered daily", value: "Unlimited" },
-            { label: "Data sources connected", value: "Live" },
+            { label: "Dials analyzed per week", value: "10,000+" },
+            { label: "Time saved every Monday", value: "45 min" },
+            { label: "GHL sub-accounts connected", value: "3 live" },
           ].map((stat, i) => (
             <div
               key={i}

@@ -10,12 +10,12 @@ const verticals = [
     icon: Phone,
     color: "blue",
     questions: [
-      "What was my cost per booked appointment last week?",
-      "Which rep had the highest conversion rate this month?",
-      "What time slots have the lowest show rates?",
-      "How many appointments did we book per client campaign?",
-      "Which leads in the pipeline have been sitting over 14 days?",
-      "What's my dial-to-connect ratio by day of week?",
+      "Why did show rate drop this week — which account and which time slot?",
+      "Which rep has the best cost per showed appointment — and are we loading their calendar first?",
+      "Which lead source has the worst show rate after 30 days — should we cut it?",
+      "What's my real cost per booked appointment after removing no-show leads?",
+      "Which client account is trending toward churn based on show rate this month?",
+      "What time slots convert best for our financial advisor client accounts specifically?",
     ],
   },
   {
@@ -105,12 +105,12 @@ export default function SampleQuestions() {
             What You Can Ask
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Real questions.{" "}
-            <span className="text-gradient">Real answers.</span>
+            Questions that used to take{" "}
+            <span className="text-gradient">45 minutes on a Monday.</span>
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            Questions you&apos;ve always wanted answers to — now answerable in seconds.
-            Select your industry to see examples.
+            Now answered in 10 seconds — from the GoHighLevel data you already have.
+            Select your vertical to see examples.
           </p>
         </div>
 
