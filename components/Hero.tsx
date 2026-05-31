@@ -92,7 +92,7 @@ export default function Hero() {
             <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-lg">
               Appointment-setting agencies running GoHighLevel can finally see exactly which reps,
               time slots, and lead sources are quietly hurting their show rate — and fix it.
-              No dashboards. No analysts. Just answers — from the tools you already use.
+              They already have the data. We surface the answers — from the tools they already use.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10">
