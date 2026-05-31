@@ -54,13 +54,11 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="https://calendly.com/placeholder"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contact"
                   className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
                 >
                   <span className="w-5 h-5 rounded bg-slate-800 border border-slate-700 flex items-center justify-center text-xs">📅</span>
-                  Book a Discovery Call
+                  Get a Free Data Audit
                 </a>
               </li>
               <li>
@@ -70,17 +68,6 @@ export default function Footer() {
                 >
                   <Mail className="w-4 h-4 flex-shrink-0" />
                   guru@askyourbiz.ai
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://linkedin.com/in/placeholder"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-slate-400 hover:text-white text-sm transition-colors"
-                >
-                  <Linkedin className="w-4 h-4 flex-shrink-0" />
-                  Guru Navada
                 </a>
               </li>
             </ul>

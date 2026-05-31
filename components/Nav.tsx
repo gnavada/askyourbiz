@@ -62,9 +62,7 @@ export default function Nav() {
               Free Audit
             </a>
             <a
-              href="https://calendly.com/placeholder"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#contact"
               className="px-4 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-sm font-semibold transition-all duration-200 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40"
             >
               Book a Call
@@ -103,9 +101,7 @@ export default function Nav() {
                 Request Free Audit
               </a>
               <a
-                href="https://calendly.com/placeholder"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="block text-center py-2 rounded-lg bg-blue-500 text-white text-sm font-semibold"
               >
                 Book a Discovery Call

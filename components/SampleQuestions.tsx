@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, TrendingUp, Users, ShoppingBag } from "lucide-react";
+import { Phone, TrendingUp, Home, Sun } from "lucide-react";
 
 const verticals = [
   {
@@ -15,49 +15,49 @@ const verticals = [
       "Which lead source has the worst show rate after 30 days — should we cut it?",
       "What's my real cost per booked appointment after removing no-show leads?",
       "Which client account is trending toward churn based on show rate this month?",
-      "What time slots convert best for our financial advisor client accounts specifically?",
+      "Which time slots and reps are quietly dragging down a specific client account?",
     ],
   },
   {
-    id: "financial",
-    label: "Financial Advisors",
+    id: "insurance",
+    label: "Insurance Agencies",
     icon: TrendingUp,
     color: "teal",
     questions: [
-      "How many discovery calls converted to clients last quarter?",
-      "What's my average AUM per new client this year?",
-      "Which referral sources are driving the most qualified leads?",
-      "How many clients haven't had a review call in over 6 months?",
-      "What's my pipeline value by stage right now?",
-      "Which prospects have been in 'proposal sent' the longest?",
+      "Which lead source produces the most quoted-to-bound policies?",
+      "What's my cost per booked policy review this month vs last?",
+      "Which agents have the best appointment-to-quote conversion?",
+      "Which carriers are my reps booking the most appointments for?",
+      "What's my pipeline of follow-ups that haven't been called in 7 days?",
+      "Which time slots convert best for Medicare vs final-expense leads?",
     ],
   },
   {
-    id: "recruiters",
-    label: "Recruiters",
-    icon: Users,
+    id: "realestate",
+    label: "Real Estate / ISA Teams",
+    icon: Home,
     color: "purple",
     questions: [
-      "How many placements did we make this quarter vs last?",
-      "What's my average time-to-fill by job category?",
-      "Which clients have open roles we haven't submitted candidates for?",
-      "What's my submission-to-interview ratio this month?",
-      "Which candidates in my pipeline have been inactive for 30+ days?",
-      "How many reqs did we close vs lose to competitors this year?",
+      "Which ISA is booking the most appointments that actually show?",
+      "What's my cost per booked listing appointment by lead source?",
+      "Which lead source goes cold fastest after first contact?",
+      "How many buyer consults converted to signed agreements this month?",
+      "Which agents have appointments booked but no follow-up logged?",
+      "What time of day are my outbound dials connecting best?",
     ],
   },
   {
-    id: "ecommerce",
-    label: "E-commerce",
-    icon: ShoppingBag,
+    id: "solar",
+    label: "Solar / Home Services",
+    icon: Sun,
     color: "orange",
     questions: [
-      "What's my average order value this week vs last week?",
-      "Which products have the highest return rates?",
-      "How many customers made a second purchase within 90 days?",
-      "What's my customer acquisition cost by channel this month?",
-      "Which SKUs are trending down in conversion rate?",
-      "How does LTV differ between first-touch Facebook vs Google?",
+      "Which lead source produces the most sat appointments that close?",
+      "What's my cost per sat appointment by setter this week?",
+      "Which setters are booking appointments that close vs cancel?",
+      "Which zip codes are producing the best appointment quality?",
+      "How many quoted jobs are still waiting on a follow-up call?",
+      "What's my real cost per closed job after no-show appointments?",
     ],
   },
 ];
@@ -110,7 +110,7 @@ export default function SampleQuestions() {
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
             Now answered in 10 seconds — from the GoHighLevel data you already have.
-            Select your vertical to see examples.
+            Built for appointment-setting agencies first — and the dialing teams that run like them.
           </p>
         </div>
 
@@ -156,7 +156,7 @@ export default function SampleQuestions() {
           <p className="text-slate-500 text-sm">
             Don&apos;t see your exact use case?{" "}
             <a
-              href="https://calendly.com/placeholder"
+              href="#contact"
               className="text-blue-400 hover:text-blue-300 underline underline-offset-2"
             >
               Book a call and we&apos;ll walk through your specific data.

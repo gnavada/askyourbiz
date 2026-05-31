@@ -12,8 +12,8 @@ export default function SocialProof() {
             Client Spotlight
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white">
-            Trusted by operators{" "}
-            <span className="text-gradient">moving fast</span>
+            Why 7FIGURERIA checks it{" "}
+            <span className="text-gradient">every Monday</span>
           </h2>
         </div>
 

@@ -84,7 +84,7 @@ export default function FAQ() {
           <p className="text-slate-500 text-sm">
             Have a question that&apos;s not here?{" "}
             <a
-              href="https://calendly.com/placeholder"
+              href="#contact"
               className="text-blue-400 hover:text-blue-300 underline underline-offset-2"
             >
               Book a 20-minute call

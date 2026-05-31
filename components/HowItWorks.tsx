@@ -14,7 +14,7 @@ const steps = [
     icon: Settings2,
     title: "We configure your intelligence layer",
     description:
-      "We map your business metrics, define your KPIs, and configure the intelligence layer specifically for how your business operates. Appointment-setting agency? We'll configure around cost-per-booking and show rates. E-commerce? LTV and cohort retention.",
+      "We map your business metrics, define your KPIs, and configure the intelligence layer specifically for how your agency operates — cost per booked appointment, show rate by rep and time slot, lead-source quality, and per-account health across every sub-account you run.",
     detail: "Tuned to your business model",
   },
   {

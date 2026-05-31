@@ -65,7 +65,7 @@ export default function Integrations() {
             <span className="text-white font-medium">Don&apos;t see your tool listed?</span>{" "}
             If it has an API, we can build the connection. Most custom integrations are included
             in the standard setup at no extra charge.{" "}
-            <a href="https://calendly.com/placeholder" className="text-blue-400 hover:text-blue-300 underline underline-offset-2">
+            <a href="#contact" className="text-blue-400 hover:text-blue-300 underline underline-offset-2">
               Ask us about your stack.
             </a>
           </p>

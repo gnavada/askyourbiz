@@ -30,21 +30,19 @@ export default function FinalCTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href="https://calendly.com/placeholder"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:guru@askyourbiz.ai?subject=Free%20Data%20Audit%20%E2%80%94%20AskYourBiz&body=Hi%20Guru%2C%20I%20run%20a%20GoHighLevel%20appointment-setting%20agency%20and%20I%27d%20like%20a%20free%20data%20audit.%20Here%27s%20a%20bit%20about%20my%20setup%3A"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold text-base transition-all duration-200 shadow-xl shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-0.5 w-full sm:w-auto justify-center"
           >
-            <Calendar className="w-5 h-5" />
-            Book a Discovery Call
+            <ClipboardList className="w-5 h-5" />
+            Get your Free Data Audit
             <ArrowRight className="w-4 h-4" />
           </a>
           <a
-            href="mailto:guru@askyourbiz.ai"
+            href="mailto:guru@askyourbiz.ai?subject=Question%20about%20AskYourBiz"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-200 font-semibold text-base border border-slate-700 transition-all duration-200 w-full sm:w-auto justify-center"
           >
-            <ClipboardList className="w-5 h-5" />
-            Request a Free Data Audit
+            <Calendar className="w-5 h-5" />
+            Ask a question first
           </a>
         </div>
 

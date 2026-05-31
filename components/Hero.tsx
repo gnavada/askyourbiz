@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ArrowRight, Calendar, ClipboardList } from "lucide-react";
+import { ArrowRight, ClipboardList } from "lucide-react";
 
 const demoConversation = [
   {
@@ -90,28 +90,25 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-lg">
-              Appointment-setting agencies running GoHighLevel recover 15–30% more booked calls
-              by knowing exactly which reps, time slots, and lead sources are silently killing
-              their show rate. No dashboards. No analysts. Just answers — from the tools you already use.
+              Appointment-setting agencies running GoHighLevel can finally see exactly which reps,
+              time slots, and lead sources are quietly hurting their show rate — and fix it.
+              No dashboards. No analysts. Just answers — from the tools you already use.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10">
               <a
-                href="https://calendly.com/placeholder"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#contact"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-blue-500 hover:bg-blue-600 text-white font-semibold transition-all duration-200 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-0.5"
               >
-                <Calendar className="w-4 h-4" />
-                Book a Discovery Call
+                <ClipboardList className="w-4 h-4" />
+                Get your Free Data Audit
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="#pricing"
+                href="#how-it-works"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold border border-slate-700 transition-all duration-200"
               >
-                <ClipboardList className="w-4 h-4" />
-                Request a Free Data Audit
+                See how it works
               </a>
             </div>
 
@@ -137,6 +134,7 @@ export default function Hero() {
                 <span className="w-3 h-3 rounded-full bg-yellow-500/70" />
                 <span className="w-3 h-3 rounded-full bg-green-500/70" />
                 <span className="ml-3 text-xs text-slate-500 font-mono">Claude Desktop — AskYourBiz Intelligence</span>
+                <span className="ml-auto text-[10px] uppercase tracking-wider text-slate-600">Illustrative</span>
               </div>
 
               {/* Chat messages */}

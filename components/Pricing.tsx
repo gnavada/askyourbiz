@@ -138,9 +138,7 @@ export default function Pricing() {
                 </ul>
 
                 <a
-                  href="https://calendly.com/placeholder"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="#contact"
                   className={`mt-auto flex items-center justify-center gap-2 w-full py-3.5 rounded-xl font-semibold text-sm transition-all duration-200 ${
                     plan.highlight
                       ? "bg-blue-500 hover:bg-blue-600 text-white shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50"
