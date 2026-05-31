@@ -82,11 +82,11 @@ export default function Hero() {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-white mb-6">
-              Your data already knows{" "}
-              <span className="text-gradient">where you&apos;re losing money.</span>
+              Ask your business data{" "}
+              <span className="text-gradient">anything.</span>
               <br />
-              We make it{" "}
-              <span className="text-gradient">tell you.</span>
+              Get answers in{" "}
+              <span className="text-gradient">seconds.</span>
             </h1>
 
             <p className="text-lg text-slate-400 leading-relaxed mb-8 max-w-lg">
