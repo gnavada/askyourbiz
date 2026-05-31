@@ -1,4 +1,4 @@
-import { Check, Zap, Rocket, Calendar, ClipboardList } from "lucide-react";
+import { Check, Zap, Rocket, Building2, Calendar, ClipboardList } from "lucide-react";
 
 const plans = [
   {
@@ -37,6 +37,24 @@ const plans = [
     ctaHref: "#contact",
     badge: "Most Popular",
   },
+  {
+    name: "Custom",
+    price: "Let's talk",
+    period: "",
+    description: "Multi-location agencies, 4+ sub-accounts, or complex data needs. We scope a setup built around your operation and price it to the value it unlocks.",
+    icon: Building2,
+    highlight: false,
+    features: [
+      "4+ data sources or sub-accounts connected",
+      "Unlimited query patterns across all locations",
+      "Dedicated onboarding and configuration",
+      "Custom KPI, metric, and rollup definitions",
+      "Priority support with a custom response SLA",
+      "Cross-location benchmarking and reporting",
+    ],
+    cta: "Book a Scoping Call",
+    ctaHref: "#contact",
+  },
 ];
 
 export default function Pricing() {
@@ -45,7 +63,7 @@ export default function Pricing() {
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-700/60 to-transparent" />
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-slate-700/60 to-transparent" />
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-3">
             Pricing
@@ -60,7 +78,7 @@ export default function Pricing() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-3 gap-8 mb-12 items-start">
           {plans.map((plan, i) => {
             const Icon = plan.icon;
             return (
@@ -95,7 +113,7 @@ export default function Pricing() {
 
                 <div className="flex items-baseline gap-1 mb-2">
                   <span className="text-4xl font-bold text-white">{plan.price}</span>
-                  <span className="text-slate-400">{plan.period}</span>
+                  {plan.period && <span className="text-slate-400">{plan.period}</span>}
                 </div>
                 <p className="text-slate-400 text-sm mb-6 leading-relaxed">{plan.description}</p>
 
